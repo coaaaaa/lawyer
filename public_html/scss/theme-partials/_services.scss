@@ -2,18 +2,18 @@ $service-text: $gray-900;
 $dark-services-bg: $dark-blue;
 .service-section{
     padding: 77px 0 80px;
-    
+
     h2{
         margin-bottom: 4.5rem;
     }
-    
+
     .service-item{
         margin-bottom: 2.7rem;
         span{
             color: $service-text;
         }
     }
-    
+
     &.dark-service-section{
         background-color: $dark-blue;
         h2{
@@ -24,7 +24,7 @@ $dark-services-bg: $dark-blue;
             font-size: 1.4rem;
             line-height: 1.7rem;
         }
-        
+
         .service-item-description{
             font-size: 1.6rem;
             line-height: 2.5rem;
@@ -32,8 +32,20 @@ $dark-services-bg: $dark-blue;
             overflow: hidden;
         }
     }
-    
-    
-    
-    
+}
+
+//service content
+
+.service-content{
+    padding: 50px 0;
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+@media (min-width:992px){
+    .service-content{
+        padding: 107 px 0;
+    }
 }
